@@ -24,12 +24,12 @@ The Code Review Robot pulls Github repository URLs from a page, downloads or par
   * Use Watir or Mechanize to fill in evaluation for each student
   * POST issues on each repo? or email self with some kind of report?
 
-  ### Contributing
+### Contributing
 
-  This app currently uses Rails 5.0.0rc1. You may need to run `gem install rails -v 5.0.0rc1` before the rest of these steps.
+This app currently uses Rails 5.0.0rc1. You may need to run `gem install rails -v 5.0.0rc1` before the rest of these steps.
 
-  * Fork it
-  * Clone it
-  * `bundle install`
-  * `rake db:create`
-  * `rake db:migrate`
+* Fork it
+* Clone it
+* `bundle install`
+* `rake db:create`
+* `rake db:migrate`

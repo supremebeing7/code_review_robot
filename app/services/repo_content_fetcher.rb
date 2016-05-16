@@ -1,10 +1,11 @@
 class RepoContentFetcher
   class << self
-    def fetch(repo_url, path)
+    def fetch(repo_url=nil, path=nil)
       client = Octokit::Client.new(
         login: ENV['GITHUB_USERNAME'],
         password: ENV['GITHUB_PASSWORD']
       )
+binding.pry
       client.contents("#{username}/#{repo_name}", path: path).content
     end
 

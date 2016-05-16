@@ -10,6 +10,10 @@ gem 'jquery-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 gem 'octokit', '~> 4.0'
+gem 'nokogiri'
+# gem 'tidy'
+gem 'tidy-html5', github: 'moneyadviceservice/tidy-html5-gem'
+gem 'html_validation'
 
 group :development, :test do
   gem 'pry-rails'
